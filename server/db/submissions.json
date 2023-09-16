@@ -1,0 +1,14 @@
+{
+  "submissions": [
+    {
+      "s_id": 0,
+      "question": "Subsets sum to K",
+      "accepted": false
+    },
+    {
+      "s_id": 1,
+      "question": "Subsets dont sum to K",
+      "accepted": true
+    }
+  ]
+}

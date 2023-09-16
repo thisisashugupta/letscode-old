@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "q_id": 12341234,
+      "title": "Two States",
+      "description": "Given an array of 5 elements, return the maximum element.",
+      "testcases": [
+        { "input": "[1,2,3,4,5]", "output": "5" },
+        { "input": "[6,8,54,3,45]", "output": "54" },
+        { "input": "[0,4,3,2,1]", "output": "4" }
+      ]
+    },
+    {
+      "q_id": 12312312,
+      "title": "Subsets sum to K",
+      "description": "Given an array of 5 elements, return if any of the subsets sum to K.",
+      "testcases": [
+        { "input": "[1,2,3,4,5]", "output": "true" },
+        { "input": "[6,8,54,3,45]", "output": "true" },
+        { "input": "[0,4,3,2,1]", "output": "true" }
+      ]
+    }
+  ]
+}
