@@ -2,25 +2,18 @@ import React from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-
-import Root from "./routes/root";
-import Contact from "./routes/contact";
+import SignupPage from "./components/Signup";
+import LoginPage from "./components/Login";
 
 import { Routes, Route } from "react-router";
 
 export default function App() {
   return (
     <>
-      <h1>hello men</h1>
       <Routes>
-        <Route exact path="/">
-          <Root />
-        </Route>
-        <Route path="/about">
-          <Contact />
-        </Route>
-        {/* <Route path="/:user"> <User /></Route>
-        <Route>{/* <NoMatch /> </Route> */}
+        <Route exact path="/" />
+        <Route path="/signup" element={<SignupPage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
     </>
   );

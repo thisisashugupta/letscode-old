@@ -3,7 +3,7 @@ export default function LoginPage(props) {
     <>
       <h1>Login</h1>
       <div>
-        <form action="/login" method="POST" onSubmit={onSubmit}>
+        <form action="/login" method="POST">
           <label htmlFor="username">username</label>
           <input type="text" name="username" id="username" />
           <label htmlFor="password">password</label>
